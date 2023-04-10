@@ -239,18 +239,33 @@ nav li:hover > ul{
 }
 
 #slideout-menu ul li ul{
-  display: contents;
-  /* display: none; */
-  margin-top: 10px;
-  opacity: 1;
-  visibility: hidden;
-  position:relative;
-  top: auto;
-  /* left: 0; */
-  /* z-index: 1; */
-  background: #3b5998;
-  border-radius: 3px;
-  transition: all .3s ease-in-out;
+  display:none;
+  padding: 0;
+  position: relative;
+  width: 100%;
+  text-align:  left;
+  /* position: absolute; */
+  background-color: #2d3436;
+  /* min-width: 160px; */
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+#slideout-menu ul li ul a{
+  float: none;
+  color: rgb(255, 255, 255);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown:hover  {
+  display: block;
+}
+
+#slideout-menu ul li ul a:hover{
+  text-decoration: underline;
 }
 
 #slidout-menu li:hover > ul{
