@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+        integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Roboto+Slab" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="/testingWebsite/style.css">
+    <title>GTCoding</title>
+</head>
+
+<body>
+    <div id="slideout-menu">
+        <ul>
+            <li>
+                <a href="/testingWebsite/index.html">Home</a>
+            </li>
+            <li>
+                <a href="/testingWebsite/service.html">Service</a>
+                <button class="dropbtn" onclick="showcase()">
+                    <i class="bx bxs-chevron-down"></i>
+                </button>
+                <ul id="content" style="display: none;">
+                    <li><a href="/testingWebsite/service/webdev.html">web development</a></li>
+                    <li><a href="/testingWebsite/service/webdev.html">android app development</a></li>
+                    <li><a href="/testingWebsite/service/webdev.html">social media marketing</a></li>
+                    <li><a href="/testingWebsite/service/webdev.html">digital marketing</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="/testingWebsite/blogslist.html">Blog</a>
+            </li>
+            <li>
+                <a href="/testingWebsite/about.html">About</a>
+            </li>
+            <li>
+                <a onclick="scrollToBottom()">Contact us</a>
+            </li>
+            <li>
+                <input type="text" placeholder="Search Here">
+            </li>
+        </ul>
+    </div>
+
+    <nav>
+        <div id="logo-img">
+            <a href="#">
+                <img src="/testingWebsite/img/logo.png" alt="GTCoding Logo">
+            </a>
+        </div>
+        <div id="menu-icon">
+            <i class="fas fa-bars"></i>
+        </div>
+        <ul>
+            <li>
+                <a class="active" href="/testingWebsite/index.html">Home</a>
+            </li>
+            <li>
+                <a href="/testingWebsite/service.html" >Service</a>
+                <ul>
+                    <li><a href="/testingWebsite/service/webdev.html">web development</a></li>
+                    <li><a href="/testingWebsite/service/webdev.html">android app development</a></li>
+                    <li><a href="/testingWebsite/service/webdev.html">social media marketing</a></li>
+                    <li><a href="/testingWebsite/service/webdev.html">digital marketing</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="/testingWebsite/blogslist.html">Blog</a>
+            </li>
+            <li>
+                <a href="/testingWebsite/about.html">About</a>
+            </li>
+            <li>
+                <a onclick="scrollToBottom()">Contact us</a>
+            </li>
+            <li>
+                <div id="search-icon">
+                    <i class="fas fa-search"></i>
+                </div>
+            </li>
+        </ul>
+    </nav>
+
+    <div id="searchbox">
+        <input type="text" placeholder="Search Here">
+    </div>
+
+
+
+
+
+
+
+
+    <footer>
+        <div id="left-footer">
+            <h3>Quick Links</h3>
+            <p>
+            <ul>
+                <li>
+                    <a href="/testingWebsite/index.html">Home</a>
+                </li>
+                <li>
+                    <a href="/testingWebsite/service.html">Service</a>
+                </li>
+                <li>
+                    <a href="/testingWebsite/about.html">About</a>
+                </li>
+                <li>
+                    <a href="#">Privacy Policy</a>
+                </li>
+                <li>
+                    <a href="/testingWebsite/blogslist.html">Blogs</a>
+                </li>
+            </ul>
+            </p>
+        </div>
+
+        <div id="right-footer">
+            <h3>Follow us on</h3>
+            <div id="social-media-footer">
+                <ul>
+                    <li>
+                        <a href="https://facebook.com/Mahaboobtech/">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://youtube.com/mahaboobtech">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/mahaboobtech">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <p>Email: mickelbasha1268@gmail.com</p>
+        </div>
+    </footer>
+
+</main>
+
+<script src="/testingWebsite/main.js"></script>
+</body>
+
+</html>

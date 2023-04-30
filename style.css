@@ -234,6 +234,61 @@ textarea:focus {
     width: 100%;
   }
 }
+/* team members */
+ /* Three columns side by side */
+ .column {
+  /* float: left; 
+  width: 25%; */
+  margin: auto;
+  padding: 0 8px;
+  display: table-cell;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+  .column {
+    width: 80%;
+    display: block;
+  }
+}
+
+/* Add some shadows to create a card effect */
+.cardm {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Some left and right padding inside the container */
+.container {
+  padding: 0 16px;
+}
+
+/* Clear floats */
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+  margin-bottom: 10px;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
 
 
 /* Search Box */
@@ -252,6 +307,62 @@ textarea:focus {
   height: 48px;
   width: 100%;
 }
+/* bannerednew  */
+
+.highlight-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+
+.highlight {
+	
+  width: 30%;
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: #1554c25e;
+  border-radius: 10px;
+  text-align: center;
+  margin-left: 5px;
+  border-radius: 100px;
+}	
+
+.highlight i {
+  font-size: 48px;
+  color: #2ecc71;
+  margin-bottom: 10px;
+}
+
+.highlight h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.highlight p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .highlight {
+    width: 80%;
+    display: block;
+  }
+  .highlight-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+
+
+
+/* bannerednew end  */
 
 /* Navigation */
 
